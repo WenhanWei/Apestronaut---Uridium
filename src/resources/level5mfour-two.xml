@@ -1,0 +1,168 @@
+<Scene>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>100</x>
+            <y>770</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>1700</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>1700</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>2000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject"> <!-- ground the obstacle is on -->
+        <Component type="Transform">
+            <x>900</x>
+            <y>350</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>400</sizeX>
+            <sizeY>20</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>400</sizeX>
+            <sizeY>20</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>10000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>400</x>
+            <y>650</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>500</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>500</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>1000000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>300</x>
+            <y>200</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>400</sizeX>
+            <sizeY>20</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>400</sizeX>
+            <sizeY>20</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>1000000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="MPPlayerObject">
+        <Component type="Transform">
+            <x>800</x>
+            <y>650</y>
+        </Component>
+    </GameObject>
+    <!--  <GameObject type="MovingObstacle">
+          <Component type="Transform">
+              <x>300</x>
+              <y>550</y>
+          </Component>
+      </GameObject> -->
+    <!-- <GameObject type="MovingGroundObject">
+          <Component type="Transform">
+              <x>-10</x>
+              <y>500</y>
+          </Component>
+          <Component type="Collider">
+              <sizeX>200</sizeX>
+              <sizeY>30</sizeY>
+          </Component>
+          <Component type="GraphicsComponent_Tileable">
+              <sizeX>200</sizeX>
+              <sizeY>30</sizeY>
+          </Component>
+          <Component type="StrengthComponent">
+              <strength>10000</strength>
+          </Component>
+      </GameObject> -->
+    <GameObject type="SpeedBooster">
+        <Component type="Transform">
+            <x>1050</x>
+            <y>200</y>
+        </Component>
+    </GameObject>
+    <GameObject type="StunBooster">
+        <Component type="Transform">
+            <x>950</x>
+            <y>590</y>
+        </Component>
+    </GameObject>
+    <GameObject type="InvincibleWeapon">
+        <Component type="Transform">
+            <x>800</x>
+            <y>400</y>
+        </Component>
+    </GameObject>
+    <GameObject type="CoinObject">
+        <Component type="Transform">
+            <x>1300</x>
+            <y>220</y>
+        </Component>
+        <Component type="MoneyComponent">
+            <value>500</value>
+        </Component>
+    </GameObject>
+    <GameObject type="CoinObject">
+        <Component type="Transform">
+            <x>1300</x>
+            <y>600</y>
+        </Component>
+        <Component type="MoneyComponent">
+            <value>200</value>
+        </Component>
+    </GameObject>
+    <GameObject type="CoinObject">
+        <Component type="Transform">
+            <x>1600</x>
+            <y>600</y>
+        </Component>
+        <Component type="MoneyComponent">
+            <value>150</value>
+        </Component>
+    </GameObject>
+    <!--   <GameObject type="Meteor">
+           <Component type="Transform">
+               <x>200</x>
+               <y>100</y>
+           </Component>
+       </GameObject> -->
+    <GameObject type="MPOpponentObject">
+        <Component type="Transform">
+            <x>700</x>
+            <y>650</y>
+        </Component>
+    </GameObject>
+    <GameObject type="MPOpponentObject3">
+        <Component type="Transform">
+            <x>700</x>
+            <y>650</y>
+        </Component>
+    </GameObject>
+    <GameObject type="MPOpponentObject4">
+        <Component type="Transform">
+            <x>700</x>
+            <y>650</y>
+        </Component>
+    </GameObject>
+</Scene>

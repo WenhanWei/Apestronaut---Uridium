@@ -1,0 +1,20 @@
+Assets:
+Background: https://opengameart.org/content/space-backgrounds-7
+Button: https://opengameart.org/content/sci-fi-ui-panel
+Info-Box (in the PlayView): https://opengameart.org/content/inventory-gui
+Icons: https://game-icons.net/
+Font: https://fonts.google.com/specimen/Orbitron
+Font: https://www.1001fonts.com/neutronium-font.html#more
+
+Audio:
+Music: https://roboxel.itch.io/free-space-music
+Jump: https://freesound.org/people/LloydEvans09/sounds/187024/
+Jump Boost: https://freesound.org/people/qubodup/sounds/331381/
+Punch: https://www.freesoundeffects.com/free-track/punch-426855/
+Coin: https://freesound.org/people/bradwesson/sounds/135936/
+Player death: https://freesound.org/people/jacksonacademyashmore/sounds/414209/
+Pick up booster: https://freesound.org/people/GameAudio/sounds/220173/
+Health: https://freesound.org/people/zandernoriega/sounds/162387/
+Speed: https://freesound.org/people/JavierZumer/sounds/257225/
+Stun: https://freesound.org/people/MATTIX/sounds/455215/
+Damage: https://freesound.org/people/bubaproducer/sounds/151022/

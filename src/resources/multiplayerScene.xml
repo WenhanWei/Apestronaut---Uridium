@@ -1,0 +1,84 @@
+<Scene>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>0</x>
+            <y>770</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>1980</sizeX>
+            <sizeY>80</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Square">
+            <sizeX>1980</sizeX>
+            <sizeY>80</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>10000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>500</x>
+            <y>650</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>400</sizeX>
+            <sizeY>40</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Square">
+            <sizeX>400</sizeX>
+            <sizeY>40</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>3</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>600</x>
+            <y>550</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>800</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Square">
+            <sizeX>800</sizeX>
+            <sizeY>30</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>2</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="MPPlayerObject">
+        <Component type="Transform">
+            <x>500</x>
+            <y>80</y>
+        </Component>
+    </GameObject>
+    <GameObject type="MPOpponentObject">
+        <Component type="Transform">
+            <x>800</x>
+            <y>80</y>
+        </Component>
+    </GameObject> <!--
+    <GameObject type="EnemyObject">
+        <Component type="Transform">
+            <x>400</x>
+            <y>5</y>
+        </Component>
+    </GameObject>
+    -->
+    <GameObject type="StunBooster">
+        <Component type="Transform">
+            <x>1000</x>
+            <y>400</y>
+        </Component>
+    </GameObject>
+    <!--  <GameObject type="JumpBooster">
+        <Component type="Transform">
+            <x>600</x>
+            <y>400</y>
+        </Component>
+        </GameObject>  -->
+</Scene>

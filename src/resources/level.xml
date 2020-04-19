@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Scene>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>583</x>
+            <y>850</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>804</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>804</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="PlayerObject">
+        <Component type="Transform">
+            <x>577</x>
+            <y>616</y>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>435</x>
+            <y>691</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>1036</x>
+            <y>409</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="InvincibleWeapon">
+        <Component type="Transform">
+            <x>1264</x>
+            <y>775</y>
+        </Component>
+    </GameObject>
+    <GameObject type="ObstacleWeapon">
+        <Component type="Transform">
+            <x>1126</x>
+            <y>738</y>
+        </Component>
+    </GameObject>
+</Scene>

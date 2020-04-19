@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Scene>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>583</x>
+            <y>850</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>804</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>804</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="PlayerObject">
+        <Component type="Transform">
+            <x>828</x>
+            <y>775</y>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>607</x>
+            <y>610</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>1036</x>
+            <y>409</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="SpeedBooster">
+        <Component type="Transform">
+            <x>1117</x>
+            <y>324</y>
+        </Component>
+    </GameObject>
+    <GameObject type="InvincibleWeapon">
+        <Component type="Transform">
+            <x>1156</x>
+            <y>659</y>
+        </Component>
+    </GameObject>
+    <GameObject type="StunBooster">
+        <Component type="Transform">
+            <x>672</x>
+            <y>537</y>
+        </Component>
+    </GameObject>
+    <GameObject type="ObstacleWeapon">
+        <Component type="Transform">
+            <x>1037</x>
+            <y>782</y>
+        </Component>
+    </GameObject>
+    <GameObject type="GroundObject">
+        <Component type="Transform">
+            <x>391</x>
+            <y>192</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>250</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+    <GameObject type="MovingGroundObject">
+        <Component type="Transform">
+            <x>847</x>
+            <y>156</y>
+        </Component>
+        <Component type="Collider">
+            <sizeX>200</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="GraphicsComponent_Tileable">
+            <sizeX>200</sizeX>
+            <sizeY>32</sizeY>
+        </Component>
+        <Component type="StrengthComponent">
+            <strength>100000</strength>
+        </Component>
+    </GameObject>
+</Scene>
